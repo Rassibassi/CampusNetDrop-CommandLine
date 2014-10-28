@@ -5,11 +5,11 @@ import xml.etree.ElementTree as ET
 
 def createRequest(url):
 	"""Easy way of creating requests"""	
-	with open("token.txt") as f:
+	dirname, filename = os.path.split(os.path.abspath(__file__))
+	with open(dirname+"/token.txt") as f:
 		data=f.readlines()
 	appName=data[0].strip()
-	appToken=data[1].strip()
-	dirname, filename = os.path.split(os.path.abspath(__file__))
+	appToken=data[1].strip()	
 	lmtdAccssFile = open(dirname+'/lmtdAccss.txt')
 	lines = lmtdAccssFile.readlines()
 	lmtdAccssFile.close()

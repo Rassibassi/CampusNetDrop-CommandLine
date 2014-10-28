@@ -21,3 +21,43 @@ The code is Python 2.7
 Tip 1: In order to download files of old courses, navigate into the archive on CampusNet and tick the desired courses.
 
 Tip 2: Add a `alias` in your `~/.bashrc` or `~/.bash_profile` for faster access
+
+#Configuration example Linux and OSX
+```CampusNet username? (sXXXXXX)
+sxxxxxx
+CampusNet password?
+Password: 
+Configure courses? (yes/no)
+yes
+Add "Courses --- 01426 Cryptology 2" to Downloads? (y/n)
+y
+Where to download the "01426 Cryptology 2" files? (Path)
+/home/UserName/DTU/Cryptology
+Add "Courses --- 02457 Non-Linear Signal Processing" to Downloads? (y/n)
+y
+Where to download the "02457 Non-Linear Signal Processing" files? (Path)
+/home/UserName/DTU/Non-Linear Signal Processing
+Add "Groups --- International MSc students" to Downloads? (y/n)
+n
+Add "Groups --- Master students" to Downloads? (y/n)
+n```
+
+#Configuration example Windows
+```CampusNet username? (sXXXXXX)
+sxxxxxx
+CampusNet password?
+Password: 
+Configure courses? (yes/no)
+yes
+Add "Courses --- 01426 Cryptology 2" to Downloads? (y/n)
+y
+Where to download the "01426 Cryptology 2" files? (Path)
+C:/DTU/Cryptology
+Add "Courses --- 02457 Non-Linear Signal Processing" to Downloads? (y/n)
+y
+Where to download the "02457 Non-Linear Signal Processing" files? (Path)
+C:/DTU/Non-Linear Signal Processing
+Add "Groups --- International MSc students" to Downloads? (y/n)
+n
+Add "Groups --- Master students" to Downloads? (y/n)
+n```

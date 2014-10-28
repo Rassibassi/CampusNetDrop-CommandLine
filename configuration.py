@@ -7,7 +7,7 @@ from CampusNetDrop import *
 dirname, filename = os.path.split(os.path.abspath(__file__))
 
 ### Login
-if not os.path.isfile("lmtdAccss.txt"):
+if not os.path.isfile(dirname+"/lmtdAccss.txt"):
 	login()
 else:
 	print "Configure login? (yes/no)"

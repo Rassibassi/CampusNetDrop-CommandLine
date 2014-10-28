@@ -1,6 +1,7 @@
 token.txt
 lmtdAccss.txt
 config.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -54,4 +55,3 @@ coverage.xml
 docs/_build/
 
 # PyBuilder
-target/

@@ -22,8 +22,9 @@ Tip 1: In order to download files of old courses, navigate into the archive on C
 
 Tip 2: Add a `alias` in your `~/.bashrc` or `~/.bash_profile` for faster access
 
-#Configuration example Linux and OSX
-```CampusNet username? (sXXXXXX)
+#####Configuration example Linux and OSX
+```
+CampusNet username? (sXXXXXX)
 sxxxxxx
 CampusNet password?
 Password: 
@@ -40,10 +41,12 @@ Where to download the "02457 Non-Linear Signal Processing" files? (Path)
 Add "Groups --- International MSc students" to Downloads? (y/n)
 n
 Add "Groups --- Master students" to Downloads? (y/n)
-n```
+n
+```
 
-#Configuration example Windows
-```CampusNet username? (sXXXXXX)
+#####Configuration example Windows
+```
+CampusNet username? (sXXXXXX)
 sxxxxxx
 CampusNet password?
 Password: 
@@ -60,4 +63,5 @@ C:/DTU/Non-Linear Signal Processing
 Add "Groups --- International MSc students" to Downloads? (y/n)
 n
 Add "Groups --- Master students" to Downloads? (y/n)
-n```
+n
+```

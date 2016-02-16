@@ -34,9 +34,9 @@ def createFolders(root,path):
 
 def createFolder(name,path):
 	"""Create folder if not already there"""
-	directory = path+"/"+name
+	directory = path+"/"+name.strip()
 	if not os.path.isdir(directory):
-		print "Creating folder "+path+"/"+name
+		print "Creating folder "+directory
 		os.makedirs(directory)
 
 def getFiles(root,path,to_download):

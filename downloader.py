@@ -37,6 +37,7 @@ for line in lines:
 	for download in to_download:
 		# download file if it doesnt exist or if there is a new version
 		file_path = directory+download['Path']+"/"+download['Name']
+		file_path = "/".join([x.strip() for x in file_path.split("/")])
 		if os.path.isfile(file_path):
 			file_created = datetime.datetime.fromtimestamp(os.path.getctime(file_path))
 			if not file_created > download['Created']:
